@@ -54,7 +54,8 @@ Logo,
 
 $$ A = [T(e_1) \quad T(e_2)] = \begin{pmatrix} 2 & 3 \\ 4 & 5 \end{pmatrix} $$
 
-**-> Calcule: $$T \begin{pmatrix} 1 \\ 2 \end{pmatrix}$$**
+**-> Calcule:**
+$$T \begin{pmatrix} 1 \\ 2 \end{pmatrix}$$
 
 <br>
 <br>
@@ -70,7 +71,8 @@ $$ T \begin{pmatrix} 1 \\ 2 \end{pmatrix} = \begin{pmatrix} 8 \\ 14 \end{pmatrix
 
 # Rotação
 
-Considere o vetor: $$v = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$$
+Considere o vetor:
+$$v = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$$
 
 **-> Aplique a transformação de rotação $R(90^\circ)$ ao vetor $v$. Qual é o novo vetor?**
 
@@ -128,7 +130,8 @@ Logo, o vetor resultante que temos é $v = (\frac{5\sqrt{2}}{2}, \frac{3\sqrt{2}
 
 $$ (x, y) \rightarrow T(x, y) = (x + y, -2x + 4y) $$
 
-**-> Verifique se $$\vec{v} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$$ é um autovetor de $T$:**
+**-> Verifique se**
+$$\vec{v} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$$ é um autovetor de $T$:
 
 <br>
 
@@ -171,7 +174,8 @@ Agora subtraimos $\lambda$ de $A$:
 
 $$ A - \lambda I = \begin{pmatrix} 1 - \lambda & 1 \\ -2 & 4 - \lambda \end{pmatrix} $$
 
-- Lembrando que: $$I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
+- Lembrando que:
+$$I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
 
 E calculamos o determinante:
 
@@ -197,7 +201,10 @@ $$ \begin{pmatrix} 1 - 3 & 1 \\ -2 & 4 - 3 \end{pmatrix} \vec{v} = 0 $$
 $$ \begin{pmatrix} -2 & 1 \\ -2 & 1 \end{pmatrix} \vec{v} = 0 $$
 
 (1) $-2v_1 + v_2 = 0$
+<p>
+
 (2) $-2v_1 + v_2 = 0$
+<p>
 
 $v_2 = 2v_1$
 
@@ -217,8 +224,11 @@ $$A \cdot \vec{v} = \begin{pmatrix} 1 & 1 \\ -2 & 4 \end{pmatrix} \begin{pmatrix
 
 $$\begin{pmatrix} \left( 1 \cdot \frac{1}{2} \right) + \left( 1 \cdot 1 \right) \\ \left( -2 \cdot \frac{1}{2} \right) + \left( 4 \cdot 1 \right) \end{pmatrix} = \begin{pmatrix} \frac{3}{2} \\ 3 \end{pmatrix} = 3 \cdot \begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix}$$
 
-Lembra que o número em evidência é o autovalor, e a matriz é o autovetor? $$\begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix} = (\frac{1}{2}, 1)$$ Então podemos afirmar que $\vec{v} = (\frac{1}{2}, 1)$ é um autovetor de $T$.
+Lembra que o número em evidência é o autovalor, e a matriz é o autovetor?
+$$\begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix} = (\frac{1}{2}, 1)$$
+Então podemos afirmar que $\vec{v} = (\frac{1}{2}, 1)$ é um autovetor de $T$.
 
+<br>
 <br>
 
 Agora, para $\lambda = 2$:
@@ -229,7 +239,9 @@ $$ \begin{pmatrix} 1 - 2 & 1 \\ -2 & 4 - 2 \end{pmatrix} \cdot \vec{v} = 0 $$
 
 $$ \begin{pmatrix} -1 & 1 \\ -2 & 2 \end{pmatrix} \cdot \vec{v} = 0 $$
 
-(1) $-v_1 + v_2 = 0$  
+(1) $-v_1 + v_2 = 0$
+<p>
+
 (2) $-2v_1 + 2v_2 = 0$
 
 (1) $v_2 = v_1$
@@ -245,4 +257,6 @@ $$A \cdot \vec{v} = \begin{pmatrix} 1 & 1 \\ -2 & 4 \end{pmatrix} \begin{pmatrix
 
 $$\begin{pmatrix} \left( 1 \cdot 1 \right) + \left( 1 \cdot 1 \right) \\ \left( -2 \cdot 1 \right) + \left( 4 \cdot 1 \right) \end{pmatrix} = \begin{pmatrix} 2 \\ 2 \end{pmatrix} = 2 \cdot \begin{pmatrix} 1 \\ 1 \end{pmatrix}$$
 
-Lembra que o número em evidência é o autovalor, e a matriz é o autovetor? $$\begin{pmatrix} 1 \\ 1 \end{pmatrix} = (1, 1)$$  Então podemos afirmar que $\vec{v} = (1, 1)$ é um autovetor de $T$.
+Lembra que o número em evidência é o autovalor, e a matriz é o autovetor?
+$$\begin{pmatrix} 1 \\ 1 \end{pmatrix} = (1, 1)$$
+Então podemos afirmar que $\vec{v} = (1, 1)$ é um autovetor de $T$.
