@@ -1,6 +1,6 @@
 # Transformação Linear
 
-\[ T: \mathbb{R}^n \to \mathbb{R}^m \]
+$ T: \mathbb{R}^n \to \mathbb{R}^m $
 
 A função deve satisfazer adição e multiplicação escalar:
 
