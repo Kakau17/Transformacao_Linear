@@ -73,7 +73,7 @@ $$ R(90^\circ) \begin{pmatrix} 0.1 - 1.0 \\ 1.1 + 0.0 \end{pmatrix} = \begin{pma
 
 # Combinação de Transformações
 
-Considere a transformação $T$ que primeiro translada o vetor \((x, y)\) por \((3, -2)\) e depois rotaciona o vetor resultante por $45^\circ$.
+Considere a transformação $T$ que primeiro translada o vetor $(x, y)$ por $(3, -2)$ e depois rotaciona o vetor resultante por $45^\circ$.
 
 1. Escreva a fórmula combinada para a transformação $T$:
 
@@ -121,7 +121,7 @@ Portanto, sim, $\vec{v} = (1, 2)$ é um autovetor de $T$.
 
 $$ (x, y) \rightarrow T(x, y) = (x + y, -2x + 4y) $$
 
-Vamos imaginar que temos uma transformação representada por uma matriz \(A\):
+Vamos imaginar que temos uma transformação representada por uma matriz $A$:
 
 $$ A = \begin{pmatrix} 1 & 1 \\ -2 & 4 \end{pmatrix} \rightarrow 1x + 1y, -2x + 4y$$ 
 
@@ -133,10 +133,10 @@ $$ A \cdot \vec{v} = \lambda \cdot \vec{v} $$
 
 $A$ = matriz transformação
 $v$ = autovetor
-\(lambda\) = autovalor
+$lambda$ = autovalor
 
 
-Agora subtraimos \(\lambda\) de \(A\):
+Agora subtraimos $\lambda$ de $A$:
 
 $$ A - \lambda I = \begin{pmatrix} 1 - \lambda & 1 \\ -2 & 4 - \lambda \end{pmatrix} $$
 
@@ -156,7 +156,7 @@ $$ \lambda_1 = 3, \quad \lambda_2 = 2 $$
 
 Agora, para cada autovalor, encontramos o autovetor correspondente:
 
-Para \(\lambda = 3\):
+Para $\lambda = 3$:
 
 $$ (A - 3I) \cdot \vec{v} = 0 $$
 
@@ -165,32 +165,32 @@ $$ \begin{pmatrix} 1 - 3 & 1 \\ -2 & 4 - 3 \end{pmatrix} \vec{v} = 0 $$
 
 $$ \begin{pmatrix} -2 & 1 \\ -2 & 1 \end{pmatrix} \vec{v} = 0 $$
 
-(1) \(-2v_1 + v_2 = 0\)
-(2) \(-2v_1 + v_2 = 0\)
+(1) $-2v_1 + v_2 = 0$
+(2) $-2v_1 + v_2 = 0$
 
-\(v_2 = 2v_1\)
+$v_2 = 2v_1$
 
-Agora escolhemos um valor qualquer para \(v_1\) (normalmente se escolhe 1)
+Agora escolhemos um valor qualquer para $v_1$ (normalmente se escolhe 1)
 
-\(v_2 = 2 . 1 = 2\)
+$v_2 = 2 . 1 = 2$
 
-Logo, um autovetor correspondente é \(\vec{v} = (1, 2)\)
+Logo, um autovetor correspondente é $\vec{v} = (1, 2)$
 
-No exercício passado, multiplicamos tudo por $\frac{1}{2}\) por conveniência:
+No exercício passado, multiplicamos tudo por $\frac{1}{2}$ por conveniência:
 
-\(\vec{v} = (\frac{1}{2}, 1)\)
+$\vec{v} = (\frac{1}{2}, 1)$
 
 Como conferir:
 
-\(A \cdot \vec{v} = \begin{pmatrix} 1 & 1 \\ -2 & 4 \end{pmatrix} \begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix} =$
+$A \cdot \vec{v} = \begin{pmatrix} 1 & 1 \\ -2 & 4 \end{pmatrix} \begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix} =$
 
 $\begin{pmatrix} \left( 1 \cdot \frac{1}{2} \right) + \left( 1 \cdot 1 \right) \\ \left( -2 \cdot \frac{1}{2} \right) + \left( 4 \cdot 1 \right) \end{pmatrix} = \begin{pmatrix} \frac{3}{2} \\ 3 \end{pmatrix} = 3 \cdot \begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix}$
 
-Lembra que o número em evidência é o autovalor, e a matriz é o autovetor? \(\begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix} = (\frac{1}{2}, 1)\), não? Então podemos afirmar que \(\vec{v} = (\frac{1}{2}, 1)\) é um autovetor de \(T\).
+Lembra que o número em evidência é o autovalor, e a matriz é o autovetor? $\begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix} = (\frac{1}{2}, 1)$, não? Então podemos afirmar que $\vec{v} = (\frac{1}{2}, 1)$ é um autovetor de $T$.
 
 <br>
 
-Agora, para \(\lambda = 2\):
+Agora, para $\lambda = 2$:
 
 $$(A - 2I) \cdot \vec{v} = 0 $$
 
@@ -198,20 +198,20 @@ $$ \begin{pmatrix} 1 - 2 & 1 \\ -2 & 4 - 2 \end{pmatrix} \cdot \vec{v} = 0 $$
 
 $$ \begin{pmatrix} -1 & 1 \\ -2 & 2 \end{pmatrix} \cdot \vec{v} = 0 $$
 
-(1) \(-v_1 + v_2 = 0\)  
-(2) \(-2v_1 + 2v_2 = 0\)
+(1) $-v_1 + v_2 = 0$  
+(2) $-2v_1 + 2v_2 = 0$
 
-(1) \(v_2 = v_1\)
+(1) $v_2 = v_1$
 
-Agora escolhemos um valor qualquer para \(v_1\) (nesse caso, escolhi 1):  
-\(v_2 = 1\)
+Agora escolhemos um valor qualquer para $v_1$ (nesse caso, escolhi 1):  
+$v_2 = 1$
 
 Logo, um autovetor correspondente é: $\vec{v} = (1, 1)$
 
 Como conferir:
 
-\(A \cdot \vec{v} = \begin{pmatrix} 1 & 1 \\ -2 & 4 \end{pmatrix} \begin{pmatrix} 1 \\ 1 \end{pmatrix} =$
+$$A \cdot \vec{v} = \begin{pmatrix} 1 & 1 \\ -2 & 4 \end{pmatrix} \begin{pmatrix} 1 \\ 1 \end{pmatrix} =$$
 
-$\begin{pmatrix} \left( 1 \cdot 1 \right) + \left( 1 \cdot 1 \right) \\ \left( -2 \cdot 1 \right) + \left( 4 \cdot 1 \right) \end{pmatrix} = \begin{pmatrix} 2 \\ 2 \end{pmatrix} = 2 \cdot \begin{pmatrix} 1 \\ 1 \end{pmatrix}$
+$$\begin{pmatrix} \left( 1 \cdot 1 \right) + \left( 1 \cdot 1 \right) \\ \left( -2 \cdot 1 \right) + \left( 4 \cdot 1 \right) \end{pmatrix} = \begin{pmatrix} 2 \\ 2 \end{pmatrix} = 2 \cdot \begin{pmatrix} 1 \\ 1 \end{pmatrix}$$
 
-Lembra que o número em evidência é o autovalor, e a matriz é o autovetor? \(\begin{pmatrix} 1 \\ 1 \end{pmatrix} = (1, 1)\), não? Então podemos afirmar que \(\vec{v} = (1, 1)\) é um autovetor de \(T\).
+Lembra que o número em evidência é o autovalor, e a matriz é o autovetor? $\begin{pmatrix} 1 \\ 1 \end{pmatrix} = (1, 1)$, não? Então podemos afirmar que $\vec{v} = (1, 1)$ é um autovetor de $T$.
