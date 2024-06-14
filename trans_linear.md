@@ -46,7 +46,7 @@ Logo,
 
 $$ A = [T(e_1) \quad T(e_2)] = \begin{pmatrix} 2 & 3 \\ 4 & 5 \end{pmatrix} $$
 
--> Calcule $T \begin{pmatrix} 1 \\ 2 \end{pmatrix}$
+$\text{-> Calcule } T \begin{pmatrix} 1 \\ 2 \end{pmatrix}$
 
 $$ A \cdot T \begin{pmatrix} 1 \\ 2 \end{pmatrix} $$
 
