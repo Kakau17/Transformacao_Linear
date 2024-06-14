@@ -16,7 +16,11 @@ $$ B = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} $$
 
 $$ u = \begin{pmatrix} 2 \\ 3 \end{pmatrix} $$
 
-**Calcule $T(u)$ usando a matriz $B$.**
+**-> Calcule $T(u)$ usando a matriz $B$.**
+
+<br>
+
+| Cálculo: |
 
 Ou seja, multiplicamos $B$ por $u$:
 
@@ -30,7 +34,11 @@ Considere a transformação linear dada por:
 
 $$ T \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2x + 3y \\ 4x + 5y \end{pmatrix} $$
 
--> Encontre a matriz $A$ que representa a transformação $T$:
+**-> Encontre a matriz $A$ que representa a transformação $T$:**
+
+<br>
+<br>
+| Cálculo: |
 
 $$ A = [T(e_1) \quad T(e_2)] $$
 
@@ -46,7 +54,11 @@ Logo,
 
 $$ A = [T(e_1) \quad T(e_2)] = \begin{pmatrix} 2 & 3 \\ 4 & 5 \end{pmatrix} $$
 
--> Calcule: $T \left( \begin{pmatrix} 1 \\ 2 \end{pmatrix} \right)$
+**-> Calcule: $$T \begin{pmatrix} 1 \\ 2 \end{pmatrix}$$**
+
+<br>
+<br>
+| Cálculo: |
 
 $$ A \cdot T \begin{pmatrix} 1 \\ 2 \end{pmatrix} $$
 
@@ -54,11 +66,20 @@ $$ \begin{pmatrix} 2 & 3 \\ 4 & 5 \end{pmatrix} \begin{pmatrix} 1 \\ 2 \end{pmat
 
 $$ T \begin{pmatrix} 1 \\ 2 \end{pmatrix} = \begin{pmatrix} 8 \\ 14 \end{pmatrix} $$
 
+<br>
+
 # Rotação
 
-Considere o vetor $v = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$:
+Considere o vetor: $$v = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$$
 
--> Aplique a transformação de rotação $R(90^\circ)$ ao vetor $v$. Qual é o novo vetor?
+**-> Aplique a transformação de rotação $R(90^\circ)$ ao vetor $v$. Qual é o novo vetor?**
+
+<br>
+<br>
+| Cálculo: |
+
+<br>
+<br>
 
 A matriz de rotação é:
 
@@ -107,7 +128,12 @@ Logo, o vetor resultante que temos é $v = (\frac{5\sqrt{2}}{2}, \frac{3\sqrt{2}
 
 $$ (x, y) \rightarrow T(x, y) = (x + y, -2x + 4y) $$
 
-##### Verifique se $\vec{v} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$ é um autovetor de $T$:
+**-> Verifique se $$\vec{v} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}$$ é um autovetor de $T$:**
+
+<br>
+
+| Cálculo: |
+<Br>
 
 $$ T \begin{pmatrix} 1 \\ 2 \end{pmatrix} = \begin{pmatrix} 1 + 2 \\ -2 \cdot 1 + 4 \cdot 2 \end{pmatrix} = \begin{pmatrix} 3 \\ 6 \end{pmatrix} = 3 \cdot \begin{pmatrix} 1 \\ 2 \end{pmatrix} $$
 
@@ -132,15 +158,20 @@ Precisamos dos autovalores e autovetores:
 $$ A \cdot \vec{v} = \lambda \cdot \vec{v} $$
 
 $A$ = matriz transformação
+<p>
+
 $v$ = autovetor
+<p>
+
 $lambda$ = autovalor
 
+<br>
 
 Agora subtraimos $\lambda$ de $A$:
 
 $$ A - \lambda I = \begin{pmatrix} 1 - \lambda & 1 \\ -2 & 4 - \lambda \end{pmatrix} $$
 
-(Lembrando que $I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$)
+- Lembrando que: $$I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
 
 E calculamos o determinante:
 
@@ -182,11 +213,11 @@ $\vec{v} = (\frac{1}{2}, 1)$
 
 Como conferir:
 
-$A \cdot \vec{v} = \begin{pmatrix} 1 & 1 \\ -2 & 4 \end{pmatrix} \begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix} =$
+$$A \cdot \vec{v} = \begin{pmatrix} 1 & 1 \\ -2 & 4 \end{pmatrix} \begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix} =$$
 
-$\begin{pmatrix} \left( 1 \cdot \frac{1}{2} \right) + \left( 1 \cdot 1 \right) \\ \left( -2 \cdot \frac{1}{2} \right) + \left( 4 \cdot 1 \right) \end{pmatrix} = \begin{pmatrix} \frac{3}{2} \\ 3 \end{pmatrix} = 3 \cdot \begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix}$
+$$\begin{pmatrix} \left( 1 \cdot \frac{1}{2} \right) + \left( 1 \cdot 1 \right) \\ \left( -2 \cdot \frac{1}{2} \right) + \left( 4 \cdot 1 \right) \end{pmatrix} = \begin{pmatrix} \frac{3}{2} \\ 3 \end{pmatrix} = 3 \cdot \begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix}$$
 
-Lembra que o número em evidência é o autovalor, e a matriz é o autovetor? $\begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix} = (\frac{1}{2}, 1)$, não? Então podemos afirmar que $\vec{v} = (\frac{1}{2}, 1)$ é um autovetor de $T$.
+Lembra que o número em evidência é o autovalor, e a matriz é o autovetor? $$\begin{pmatrix} \frac{1}{2} \\ 1 \end{pmatrix} = (\frac{1}{2}, 1)$$ Então podemos afirmar que $\vec{v} = (\frac{1}{2}, 1)$ é um autovetor de $T$.
 
 <br>
 
@@ -214,4 +245,4 @@ $$A \cdot \vec{v} = \begin{pmatrix} 1 & 1 \\ -2 & 4 \end{pmatrix} \begin{pmatrix
 
 $$\begin{pmatrix} \left( 1 \cdot 1 \right) + \left( 1 \cdot 1 \right) \\ \left( -2 \cdot 1 \right) + \left( 4 \cdot 1 \right) \end{pmatrix} = \begin{pmatrix} 2 \\ 2 \end{pmatrix} = 2 \cdot \begin{pmatrix} 1 \\ 1 \end{pmatrix}$$
 
-Lembra que o número em evidência é o autovalor, e a matriz é o autovetor? $\begin{pmatrix} 1 \\ 1 \end{pmatrix} = (1, 1)$, não? Então podemos afirmar que $\vec{v} = (1, 1)$ é um autovetor de $T$.
+Lembra que o número em evidência é o autovalor, e a matriz é o autovetor? $$\begin{pmatrix} 1 \\ 1 \end{pmatrix} = (1, 1)$$  Então podemos afirmar que $\vec{v} = (1, 1)$ é um autovetor de $T$.
