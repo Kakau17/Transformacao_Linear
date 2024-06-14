@@ -10,7 +10,7 @@ $$ T(cu) = cT(u) $$
 
 # Matriz de Transformações B e Vetor u
 
-Considere a matriz de transformações \( B \) e vetor \( u \):
+Considere a matriz de transformações $B$ e vetor \( u \):
 
 $$ B = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} $$
 
